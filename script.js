@@ -28,3 +28,5 @@ document.addEventListener('contextmenu', function (e) {
     document.body.addEventListener("click", () => {
         audio.play();
     }, { once: true });
+});
+  
